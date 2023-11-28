@@ -4,10 +4,11 @@ import AlarmIcon from "@mui/icons-material/Alarm";
 import IconButton from "@mui/material/IconButton";
 import RatingDemo from "./components/RatingDemo";
 import FormDemo from "./components/FormDemo";
-
+import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
+      <NavBar />
       <FormDemo />
       {/* <RatingDemo /> */}
       {/* <Button variant="contained" onClick={() => alert("hi")}>
